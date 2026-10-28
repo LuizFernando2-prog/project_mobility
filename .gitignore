@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+project_mobility.code-workspace
+
+# Database / logs
+*.log
+*.db
+*.sqlite3
+
+# Generated maps and reports
+maps/
+*.html
+RELATORIO_*.txt
+previsao_*.png
+top_pontos_sp.csv
+
+# Kaggle / temporary downloads
+kaggle/
+*.mtx
+*.csv
+!requirements.txt
+
+# Secrets (never commit)
+secrets/
+credentials/
